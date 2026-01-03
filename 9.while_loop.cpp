@@ -14,6 +14,7 @@ int main()
     //     count++;
     // }
 
+    /*
     cout << "Do-While Loop Example" << endl;
     cout << string(100, '#') << endl;
     int number = 1;
@@ -22,6 +23,13 @@ int main()
         cout << "Number is: " << number << endl;
         number++;
     } while (number <= 5);
+    */
+    cout << "For Loop Example" << endl;
+    cout << string(100, '#') << endl;
+    for (int i = 1; i <= 5; i++)
+    {
+        cout << "i is: " << i << endl;
+    }
 
-        return 0;
+    return 0;
 }
