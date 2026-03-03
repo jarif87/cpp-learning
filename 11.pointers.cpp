@@ -28,6 +28,7 @@ using namespace std;
 //     return 0;
 // }
 
+/*
 int main()
 {
     cout << string(100, '*') << endl;
@@ -50,6 +51,32 @@ int main()
     cout << "Pointer to pointer (Address of ptr1): " << ptr2 << endl;
     cout << "Value pointed to by ptr2 (Value of ptr1): " << *ptr2 << endl;
     cout << "First character using pointer to pointer: " << **ptr2 << endl;
+
+    return 0;
+}
+    */
+
+class Hello
+{
+private:
+    int a;
+
+public:
+    void setData(int x)
+    {
+        this->a = x;
+    }
+    void display()
+    {
+        cout << "Value of a is: " << a << endl;
+    }
+};
+
+int main()
+{
+    Hello h;
+    h.setData(10);
+    h.display();
 
     return 0;
 }
